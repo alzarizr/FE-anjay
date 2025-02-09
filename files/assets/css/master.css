@@ -11199,7 +11199,7 @@ a.header-btn9 i {
 .about-welcome-section-area.login .login-boxarea {
   background: var(--white-100, #FFF);
   padding: 50px;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 @media (max-width: 767px) {
   .about-welcome-section-area.login .login-boxarea {
@@ -11227,7 +11227,7 @@ a.header-btn9 i {
   width: 100%;
   outline: none;
   border: none;
-  background: #F8F4FF;
+  background: #F8F5FF;
   padding: 20px;
   height: 60px;
   border-radius: 30px;
@@ -11314,6 +11314,7 @@ a.header-btn9 i {
 .about-welcome-section-area.login .login-boxarea .btn-area .header-btn2 img {
   margin: 0 12px 0 0;
 }
+
 
 /*============= CONTACT CSS AREA ENDS ===============*/
 /*============= RTL CSS AREA ===============*/
