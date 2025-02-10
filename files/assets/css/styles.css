@@ -1,0 +1,202 @@
+/* ======= Shop CSS ======= */
+/* ======= Inventory CSS ======= */
+
+/* ======= Shop CSS ======= */
+/* ======= Navbar Styling ======= */
+#header .navbar {
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #555;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #007bff;
+    background-color: #f8f9fa;
+}
+
+.navbar-toggler {
+    border-color: #007bff;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff;
+}
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+/* Responsiveness: Navbar */
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+}
+
+/* ======= Shop CSS ======= */
+.shop-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.template-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.template-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    min-width: 200px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.template-card:hover {
+    transform: scale(1.05);
+}
+
+.template-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.template-card .price {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.buy-button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background: #218838;
+}
+
+/* ======= Responsiveness untuk Shop ======= */
+@media (max-width: 768px) {
+    .template-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .template-card {
+        width: 90%;
+    }
+}
+
+.purchase-notification { /*untuk notifikasi*/
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    z-index: 9999;
+}
+
+/* ======= Shop CSS ======= */
+
+/* ======= Inventory CSS ======= */
+.inventory-section {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.inventory-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.inventory-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    min-width: 200px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.inventory-card:hover {
+    transform: scale(1.05);
+}
+
+.inventory-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.inventory-card .stock {
+    font-weight: bold;
+    color: #ff5722;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.manage-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manage-button:hover {
+    background: #0056b3;
+}
+
+/* ======= Responsiveness untuk Inventory ======= */
+@media (max-width: 768px) {
+    .inventory-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inventory-card {
+        width: 90%;
+    }
+}
